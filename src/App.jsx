@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false)
-
   return (
-    <div className={`app ${darkMode ? 'dark' : ''}`}>
+    <div className="app dark">
+      {/* Todo el resto sigue igual */}
       <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
         {darkMode ? '☀️ Modo claro' : '🌙 Modo oscuro'}
       </button>

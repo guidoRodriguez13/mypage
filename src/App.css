@@ -4,18 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
-  --bg: #f4f6f9;
-  --card-bg: #ffffff;
-  --text: #333;
-  --header-gradient: linear-gradient(135deg, #2c3e50, #4ca1af);
-  --skill-bg: #e8f0fe;
-  --skill-color: #1a3a5c;
-  --project-bg: #fafafa;
-  --project-border: #e0e0e0;
-}
-
-.dark {
+.root {
   --bg: #1a1a2e;
   --card-bg: #16213e;
   --text: #e0e0e0;
