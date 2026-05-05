@@ -12,7 +12,7 @@ function App() {
 
       <header className="hero">
         <img
-          src="/profile.jpg"
+          src="/profile.png"
           alt="Foto de perfil"
           className="profile-pic"
         />
