@@ -12,7 +12,7 @@ function App() {
 
       <header className="hero">
         <img
-          src="https://via.placeholder.com/130"
+          src="/profile.jpg"
           alt="Foto de perfil"
           className="profile-pic"
         />
