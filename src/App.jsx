@@ -3,31 +3,32 @@ import './App.css'
 function App() {
   return (
     <div className="app dark">
-      {/* Todo el resto sigue igual */}
-      <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
-        {darkMode ? '☀️ Modo claro' : '🌙 Modo oscuro'}
-      </button>
-
-      <header className="hero">
+      <header>
         <img
           src="/profile.png"
           alt="Foto de perfil"
           className="profile-pic"
         />
         <h1>Guido Rodriguez</h1>
-        <p>Desarrollador Web | Diseñador | Estudiante</p>
+        <p>Desarrollador Web | Jugador de basquet | Estudiante</p>
       </header>
 
-      <main className="container">
-        <section className="card">
-          <h2>Sobre mí</h2>
-          <p>
-            ¡Hola! Soy un apasionado por la tecnología y el diseño.
-            Me encanta crear experiencias digitales limpias y funcionales.
-          </p>
+        <section>
+          <div className="contact-links">
+            <a href="mailto:rodriguezguido1994@gmail.com" className="contact-btn">📧</a>
+            <a href="https://www.linkedin.com/in/guidorodriguez13/" target="_blank" className="contact-btn">🔗 LinkedIn</a>
+            <a href="https://github.com/guidoRodriguez13" target="_blank" className="contact-btn">💻 GitHub</a>
+          </div>
         </section>
 
-        <section className="card">
+      <main className="container">
+        <section>
+          <h2>Sobre mí</h2>
+          <p> ¡Hola! Soy un apasionado por la tecnología y el basquet.</p>
+          <p> Me encantan los desafios digitales.</p>
+        </section>
+
+        <section>
           <h2>Habilidades</h2>
           <div className="skills-grid">
             {['HTML5', 'CSS3', 'JavaScript', 'React', 'Node.js', 'Python', 'Git', 'Figma'].map(
@@ -38,7 +39,7 @@ function App() {
           </div>
         </section>
 
-        <section className="card">
+        <section>
           <h2>Proyectos</h2>
           <div className="projects-grid">
             {[
@@ -55,15 +56,6 @@ function App() {
           </div>
         </section>
 
-        <section className="card">
-          <h2>Contacto</h2>
-          <p>¿Tienes una idea o proyecto en mente? ¡Conversemos!</p>
-          <div className="contact-links">
-            <a href="mailto:tuemail@example.com" className="contact-btn">📧 Correo</a>
-            <a href="https://linkedin.com/in/tuusuario" target="_blank" className="contact-btn">🔗 LinkedIn</a>
-            <a href="https://github.com/tuusuario" target="_blank" className="contact-btn">💻 GitHub</a>
-          </div>
-        </section>
       </main>
 
       <footer>
